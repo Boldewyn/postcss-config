@@ -1,0 +1,9 @@
+sub: config;
+
+section {
+  quark: sub;
+}
+
+a {
+  href: #;
+}

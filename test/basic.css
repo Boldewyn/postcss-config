@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import "./subconfig.css";
+
+/* an example of a CSS config file */
+
+date: 2016-01-06;
+
+speed: 100px/s;
+
+string: "foo { bar: baz; }";
+
+\0000FCnicode: on;
+
+:root {
+  /* yay! Finally comments in config files! */
+  root-param: true;
+}
+
+section {
+  date: 2016-01-05;
+  color: green;
+}
+
+a b {
+  nested: true;
+}
+
+a,b {
+  multi: true;
+}

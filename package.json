@@ -1,0 +1,21 @@
+{
+  "name": "postcss-config",
+  "version": "1.0.0",
+  "description": "Hijacking CSS for config syntax",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Port 8000 UG (haftungsbeschänkt)",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.0.14",
+    "postcss-import": "^7.1.3"
+  },
+  "devDependencies": {
+    "ava": "^0.9.1"
+  }
+}
